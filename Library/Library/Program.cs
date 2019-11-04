@@ -6,7 +6,17 @@ namespace Library
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Goodbye, World!");
+            int input = int.Parse(Console.ReadLine());
+            int i = 1;
+            while (i < input)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+            if (i == input)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
