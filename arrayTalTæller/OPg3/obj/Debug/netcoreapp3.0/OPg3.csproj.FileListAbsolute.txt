@@ -1,0 +1,11 @@
+C:\Users\kaspe\Desktop\arrayTalTæller\OPg3\bin\Debug\netcoreapp3.0\OPg3.exe
+C:\Users\kaspe\Desktop\arrayTalTæller\OPg3\bin\Debug\netcoreapp3.0\OPg3.deps.json
+C:\Users\kaspe\Desktop\arrayTalTæller\OPg3\bin\Debug\netcoreapp3.0\OPg3.runtimeconfig.json
+C:\Users\kaspe\Desktop\arrayTalTæller\OPg3\bin\Debug\netcoreapp3.0\OPg3.runtimeconfig.dev.json
+C:\Users\kaspe\Desktop\arrayTalTæller\OPg3\bin\Debug\netcoreapp3.0\OPg3.dll
+C:\Users\kaspe\Desktop\arrayTalTæller\OPg3\bin\Debug\netcoreapp3.0\OPg3.pdb
+C:\Users\kaspe\Desktop\arrayTalTæller\OPg3\obj\Debug\netcoreapp3.0\OPg3.csprojAssemblyReference.cache
+C:\Users\kaspe\Desktop\arrayTalTæller\OPg3\obj\Debug\netcoreapp3.0\OPg3.AssemblyInfoInputs.cache
+C:\Users\kaspe\Desktop\arrayTalTæller\OPg3\obj\Debug\netcoreapp3.0\OPg3.AssemblyInfo.cs
+C:\Users\kaspe\Desktop\arrayTalTæller\OPg3\obj\Debug\netcoreapp3.0\OPg3.dll
+C:\Users\kaspe\Desktop\arrayTalTæller\OPg3\obj\Debug\netcoreapp3.0\OPg3.pdb

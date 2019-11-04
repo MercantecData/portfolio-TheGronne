@@ -1,0 +1,11 @@
+C:\Users\kaspe\Desktop\arrayTalTæller\Beep\bin\Debug\netcoreapp3.0\Beep.exe
+C:\Users\kaspe\Desktop\arrayTalTæller\Beep\bin\Debug\netcoreapp3.0\Beep.deps.json
+C:\Users\kaspe\Desktop\arrayTalTæller\Beep\bin\Debug\netcoreapp3.0\Beep.runtimeconfig.json
+C:\Users\kaspe\Desktop\arrayTalTæller\Beep\bin\Debug\netcoreapp3.0\Beep.runtimeconfig.dev.json
+C:\Users\kaspe\Desktop\arrayTalTæller\Beep\bin\Debug\netcoreapp3.0\Beep.dll
+C:\Users\kaspe\Desktop\arrayTalTæller\Beep\bin\Debug\netcoreapp3.0\Beep.pdb
+C:\Users\kaspe\Desktop\arrayTalTæller\Beep\obj\Debug\netcoreapp3.0\Beep.AssemblyInfoInputs.cache
+C:\Users\kaspe\Desktop\arrayTalTæller\Beep\obj\Debug\netcoreapp3.0\Beep.AssemblyInfo.cs
+C:\Users\kaspe\Desktop\arrayTalTæller\Beep\obj\Debug\netcoreapp3.0\Beep.dll
+C:\Users\kaspe\Desktop\arrayTalTæller\Beep\obj\Debug\netcoreapp3.0\Beep.pdb
+C:\Users\kaspe\Desktop\arrayTalTæller\Beep\obj\Debug\netcoreapp3.0\Beep.csprojAssemblyReference.cache

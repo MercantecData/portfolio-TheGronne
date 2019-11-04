@@ -1,0 +1,11 @@
+C:\Users\kaspe\Desktop\arrayTalTæller\CombinedProject\bin\Debug\netcoreapp3.0\CombinedProject.exe
+C:\Users\kaspe\Desktop\arrayTalTæller\CombinedProject\bin\Debug\netcoreapp3.0\CombinedProject.deps.json
+C:\Users\kaspe\Desktop\arrayTalTæller\CombinedProject\bin\Debug\netcoreapp3.0\CombinedProject.runtimeconfig.json
+C:\Users\kaspe\Desktop\arrayTalTæller\CombinedProject\bin\Debug\netcoreapp3.0\CombinedProject.runtimeconfig.dev.json
+C:\Users\kaspe\Desktop\arrayTalTæller\CombinedProject\bin\Debug\netcoreapp3.0\CombinedProject.dll
+C:\Users\kaspe\Desktop\arrayTalTæller\CombinedProject\bin\Debug\netcoreapp3.0\CombinedProject.pdb
+C:\Users\kaspe\Desktop\arrayTalTæller\CombinedProject\obj\Debug\netcoreapp3.0\CombinedProject.AssemblyInfoInputs.cache
+C:\Users\kaspe\Desktop\arrayTalTæller\CombinedProject\obj\Debug\netcoreapp3.0\CombinedProject.AssemblyInfo.cs
+C:\Users\kaspe\Desktop\arrayTalTæller\CombinedProject\obj\Debug\netcoreapp3.0\CombinedProject.dll
+C:\Users\kaspe\Desktop\arrayTalTæller\CombinedProject\obj\Debug\netcoreapp3.0\CombinedProject.pdb
+C:\Users\kaspe\Desktop\arrayTalTæller\CombinedProject\obj\Debug\netcoreapp3.0\CombinedProject.csprojAssemblyReference.cache
