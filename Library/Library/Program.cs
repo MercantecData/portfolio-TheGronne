@@ -13,10 +13,7 @@ namespace Library
                 Console.WriteLine(i);
                 i++;
             }
-            if (i == input)
-            {
-                Console.WriteLine(i);
-            }
+            Console.WriteLine(i);
         }
     }
 }
