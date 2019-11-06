@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kaspe\\source\\repos\\CycleShop\\CycleShop\\CycleShop.csproj",
+      "projectUniqueName": "C:\\Users\\kaspe\\Desktop\\Repos\\LibraryOpgave\\portfolio-TheGronne\\CycleShop\\CycleShop\\CycleShop.csproj",
       "projectName": "CycleShop",
-      "projectPath": "C:\\Users\\kaspe\\source\\repos\\CycleShop\\CycleShop\\CycleShop.csproj",
+      "projectPath": "C:\\Users\\kaspe\\Desktop\\Repos\\LibraryOpgave\\portfolio-TheGronne\\CycleShop\\CycleShop\\CycleShop.csproj",
       "packagesPath": "C:\\Users\\kaspe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kaspe\\source\\repos\\CycleShop\\CycleShop\\obj\\",
+      "outputPath": "C:\\Users\\kaspe\\Desktop\\Repos\\LibraryOpgave\\portfolio-TheGronne\\CycleShop\\CycleShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kaspe\\AppData\\Roaming\\NuGet\\NuGet.Config",
