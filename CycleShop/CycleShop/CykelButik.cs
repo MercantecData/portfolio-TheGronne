@@ -6,16 +6,25 @@ namespace CykelOpgave
 {
     class CykelButik
     {
-
         public List<Cykel> cykler = new List<Cykel>();
-        public void tilføjCykler()
+
+
+
+        public CykelButik()
+        {
+
+        }
+
+
+        public string tilføjCykler()
         {
             cykler.Add(new Cykel("BMW", 10, "Grey", "Male", "City"));
-            Console.WriteLine(cykler[0]);
+            return (cykler[0].colour);
         }
         public string manifacturers()
         {
             return cykler[0].manifacturer;
         }
+
     }
 }
