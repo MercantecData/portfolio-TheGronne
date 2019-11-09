@@ -6,32 +6,29 @@ namespace CykelOpgave
 {
     class CykelButik
     {
-        public List<Cykel> cykler = new List<Cykel>();
+        public int maxCykler = 50;
+        public string[] cykler;
+        int arrayNumber;
 
-
-
-        public CykelButik()
+        public CykelButik(string[] cykler, int arrayNumber)
         {
-
+            cykler = new string[maxCykler];
+            this.cykler = cykler;
+            this.arrayNumber = arrayNumber;
         }
-        public void alleCykler()
-        {
 
+        public string alleCykler()
+        {
+              while (arrayNumber < maxCykler)
+              {
+                return manifacturer[arrayNumber];
+                
+              }  
         }
 
         public string tilføjCykler()
         {
-            cykler.Add(new Cykel("BMW", 10, "Grey", "Male", "City"));
-            foreach (var cykel in cykler)
-            {
-                return cykel.manifacturer;
-            }
-            return null;
+            
         }
-        public string manifacturers()
-        {
-            return cykler[0].manifacturer;
-        }
-
     }
 }
