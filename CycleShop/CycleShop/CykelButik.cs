@@ -14,12 +14,19 @@ namespace CykelOpgave
         {
 
         }
+        public void alleCykler()
+        {
 
+        }
 
         public string tilføjCykler()
         {
             cykler.Add(new Cykel("BMW", 10, "Grey", "Male", "City"));
-            return (cykler[0].colour);
+            foreach (var cykel in cykler)
+            {
+                return cykel.manifacturer;
+            }
+            return null;
         }
         public string manifacturers()
         {
