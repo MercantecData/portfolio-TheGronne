@@ -1,6 +1,9 @@
 .text {
     color: aliceblue;
 }
+h1 {
+    background-color: #343434;
+}
 img {
     max-width: 200;
     max-height: 200;
@@ -8,5 +11,5 @@ img {
     min-width: 200;
 }
 body {
-    background-color: #111;
+    background-color: #222;
 }
