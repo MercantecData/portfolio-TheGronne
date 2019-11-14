@@ -1,0 +1,42 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20px 850px 300px 20px;
+    grid-template-areas: 
+    "header"
+    "picture"
+    "content" 
+    "footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: blue;
+}
+
+.content {
+    grid-area: content;
+    text-align: center;
+    background-color: green;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: red;
+}
+.picture {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #0a0a0c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: opacity .4s ease;
+    max-width: 85%  ;
+}
+img {
+    max-height: 850px;
+    max-width: 1500px;
+}
