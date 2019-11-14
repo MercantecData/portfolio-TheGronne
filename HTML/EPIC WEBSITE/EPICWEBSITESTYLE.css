@@ -1,7 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .grid {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 20px 850px 300px 20px;
+    grid-template-rows: 60px 750px 3000px 60px;
     grid-template-areas: 
     "header"
     "picture"
@@ -17,7 +21,7 @@
 .content {
     grid-area: content;
     text-align: center;
-    background-color: green;
+    background-color: #111111;
 }
 
 .footer {
@@ -34,9 +38,24 @@
     background-repeat: no-repeat;
     background-size: cover;
     transition: opacity .4s ease;
-    max-width: 85%  ;
 }
 img {
-    max-height: 850px;
-    max-width: 1500px;
+    min-height: 750px;
+    max-width: 1519px;
+    background-color: #0a0a0c;
+    background-size: cover;  
+}
+
+.yellow {
+    color: #c8aa6e;
+}
+.white {
+    color: white;
+}
+p{
+    color: #FFFFDF;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 21px;
+    text-align: left;
 }
