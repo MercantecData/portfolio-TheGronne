@@ -6,29 +6,40 @@ namespace CykelOpgave
 {
     class CykelButik
     {
-        public int maxCykler = 50;
-        public string[] cykler;
-        int arrayNumber;
-
-        public CykelButik(string[] cykler, int arrayNumber)
+        public List<Cykel> CykelList1 = new List<Cykel>();
+        //public int maxCykler = 3;
+        //public string[] cykler;
+        //int arrayNumber;
+        public CykelButik()
         {
-            cykler = new string[maxCykler];
-            this.cykler = cykler;
-            this.arrayNumber = arrayNumber;
+
         }
 
-        public string alleCykler()
+        public void AddCukel()
         {
-              while (arrayNumber < maxCykler)
-              {
-                return manifacturer[arrayNumber];
-                
-              }  
-        }
+            CykelList1.Add(new Cykel("Mercedes", 27.5, "Red", "Hermofordit", "City"));
+            CykelList1.Add(new Cykel("Mercedes", 27.5, "Red", "Hermofordit", "City"));
+            CykelList1.Add(new Cykel("Mercedes", 27.5, "Red", "Hermofordit", "City"));
+            CykelList1.Add(new Cykel("Mercedes", 27.5, "Red", "Hermofordit", "City"));
+            CykelList1.Add(new Cykel("Mercedes", 27.5, "Red", "Hermofordit", "City"));
+            CykelList1.Add(new Cykel("Mercedes", 27.5, "Red", "Hermofordit", "City"));
+            CykelList1.Add(new Cykel("Mercedes", 27.5, "Red", "Hermofordit", "City"));
 
-        public string tilføjCykler()
-        {
-            
         }
+        //public string manifacturers()
+        //{
+        //    cykler[0] = "BMW";
+        //    cykler[1] = "ferrari";
+        //    cykler[2] = "LED";
+
+        //    while (arrayNumber < cykler.Length)
+        //    {
+        //        return cykler[arrayNumber];
+        //        arrayNumber++;
+        //    }
+
+        //    return cykler[arrayNumber];
+        //    arrayNumber = 0;
+        //}
     }
 }
