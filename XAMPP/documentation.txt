@@ -1,0 +1,15 @@
+Først laver en ERD model.
+Jeg laver tabellen employees
+Jeg laver tabellen Dep_Employees forkert
+Jeg sletter Dep_Employees
+Jeg laver en ny Dep_Employees
+Jeg laver tabellen Dep_Manager
+Jeg laver tabellen Departments
+Jeg tilføjer salary til employees fordi det havde jeg glemt, både i sql og i ERD
+Jeg tilføler tabellen salary
+Jeg finder ud af at column names ikke kan indeholde tal
+Jeg ændre salary på ERD og laver en ny salary tabel
+Jeg laver Manager og employee ID til primary key for at kunne sætte det ind i employees
+jeg tilføjer foreign key til employees
+Jeg sætter ID's til at auto increment i dep'erne .... Nvm kan jeg ikke pga. foreign keys...
+Jeg tilføjer 1 dep employee og en dep manager
