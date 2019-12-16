@@ -15,7 +15,7 @@
 
 .header {
     grid-area: header;
-    background-color: blue;
+    background-color: #010101;
 }
 
 .content {
@@ -54,8 +54,9 @@ img {
 }
 p{
     color: #FFFFDF;
-    margin-left: 400px;
-    margin-right: 400px;
-    font-size: 21px;
+    margin-left: 475px;
+    margin-right: 475px;
+    font-size: 18px;
     text-align: left;
+    line-height: 30px;
 }
