@@ -7,6 +7,8 @@ namespace Computer_Teknologi_Projekt_Client
 {
     class Client
     {
+        public static string team1 = "";
+        public static string team2 = "";
         static void Main(string[] args)
         {
             Console.WriteLine("Enter Username");
@@ -25,15 +27,21 @@ namespace Computer_Teknologi_Projekt_Client
             byte[] buffer1 = Encoding.UTF8.GetBytes(username + " has connected.");
 
             stream.Write(buffer1, 0, buffer1.Length);
-            
+
+            byte[] buffer;
             while (true)
             {
                 ReceiveMessage(stream);
 
                 string text = Console.ReadLine();
-                Console.WriteLine("You wrote: " + text);
-                byte[] buffer = Encoding.UTF8.GetBytes(username + " says: " + text);
-
+                if (text.Contains("ready"))
+                {
+                    buffer = Encoding.UTF8.GetBytes(username + " is ready!");
+                } else
+                {
+                    Console.WriteLine("You wrote: " + text);
+                    buffer = Encoding.UTF8.GetBytes(username + " says: " + text);
+                }
                 stream.Write(buffer, 0, buffer.Length);
             }
         }
@@ -46,6 +54,22 @@ namespace Computer_Teknologi_Projekt_Client
                 int numberOfBytesRead = await stream.ReadAsync(buffer, 0, 256);
                 string receiveMessage = Encoding.UTF8.GetString(buffer, 0, numberOfBytesRead);
                 Console.WriteLine(receiveMessage);
+
+                if (receiveMessage.Contains("Team 1"))
+                {
+                    team1 = receiveMessage;
+                } else if (receiveMessage.Contains("Team 2"))
+                {
+                    team2 = receiveMessage;
+                }
+            }
+            
+        }
+        public static async void teamBetting()
+        {
+            while (true)
+            {
+                
             }
         }
     }
